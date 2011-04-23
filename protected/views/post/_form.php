@@ -39,7 +39,8 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('post', 'Create') : Yii::t('post', 'Save')); ?>
+		<input type="image" src="<?php echo Yii::app()->request->baseUrl ?>/images/button.gif" alt="" style="width:94px;height:27px;padding:0;border:medium none" />
+		<!-- <?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('post', 'Create') : Yii::t('post', 'Save')); ?> -->
 	</div>
 
 <?php $this->endWidget(); ?>

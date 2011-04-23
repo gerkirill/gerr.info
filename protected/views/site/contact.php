@@ -60,7 +60,8 @@ $this->breadcrumbs=array(
 	<?php endif; ?>
 
 	<div class="row submit">
-		<?php echo CHtml::submitButton(Yii::t('contactForm', 'Submit')); ?>
+		<input type="image" src="<?php echo Yii::app()->request->baseUrl ?>/images/button.gif" alt="" style="width:94px;height:27px;padding:0;border:medium none" />
+		<!-- <?php echo CHtml::submitButton(Yii::t('contactForm', 'Submit')); ?> -->
 	</div>
 
 <?php $this->endWidget(); ?>

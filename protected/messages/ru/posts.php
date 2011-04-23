@@ -4,5 +4,7 @@ return array (
 	' on ' => ', ',
 	'Tags:' => 'Теги:',
 	'Permalink' => 'Ссылка',
-	'Comments' => 'Комментарии'
+	'Comments' => 'Комментарии',
+	'Last updated on' => 'Последний раз обновлён',
+	'Posts Tagged with' => 'Сообщения с тегом'
 );
