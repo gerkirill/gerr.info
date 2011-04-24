@@ -211,8 +211,8 @@ background-repeat:no-repeat;
 padding:0 0 5px 22px;
 line-height:15px;
 height:15px;
-width:120px;
-float:left;
+/*width:120px;
+float:left;*/
 }
 .list a{
 font-family:Arial, Helvetica, sans-serif;
