@@ -7,4 +7,5 @@ return array (
 	'Submit' => 'Отправить',
 	'Save' => 'Сохранить',
 	'Fields with <span class="required">*</span> are required.' => 'Поля, помеченные звёздочкой - обязательны',
+	'Thank you for your comment. Your comment will be posted once it is approved.' => 'Спасибо за комментарий. Он будет опубликован сразу после проверки модератором.'
 );
