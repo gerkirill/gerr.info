@@ -3,7 +3,7 @@
 		<?php echo CHtml::encode($data->title) ?>
 	</h2>
 	<div>
-		<span class="date"><!-- <?php echo Yii::t('posts', 'posted by')?> <?php echo $data->author->username?><?php echo Yii::t('posts', ' on ')?> --><?php echo date('d.m.Y',$data->create_time); ?></span>
+	<span class="date"><!-- <?php echo Yii::t('posts', 'posted by')?> <?php echo $data->author->username?><?php echo Yii::t('posts', ' on ')?> --><?php echo Yii::app()->dateFormatter->format('d.m.yyyy', $data->create_time); ?></span>
 		<span class="categories"><b><?php echo Yii::t('posts', 'Tags:')?></b>
 		<?php echo implode(', ', $data->tagLinks); ?></span>
 	</div>
